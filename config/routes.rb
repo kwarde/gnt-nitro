@@ -1,4 +1,6 @@
 Gnt::Application.routes.draw do
+  resources :hosts
+
   resources :games
   root to: 'games#index'
   # The priority is based upon order of creation: first created -> highest priority.
